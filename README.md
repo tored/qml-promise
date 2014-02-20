@@ -5,7 +5,7 @@ Promise implementation for JavaScript to C++ in Qt QML
 ## Example
 
 ```cpp
-Qobject* Test::double(int i)
+QObject* Test::double(int i)
 {
   Promise *promise = new Promise();
   QtConcurrent::run([promise, i] {
