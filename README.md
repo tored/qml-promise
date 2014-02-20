@@ -2,6 +2,8 @@
 
 Promise implementation for JavaScript to C++ in Qt QML
 
+To avoid deep callback chains use promises.
+
 ## Example
 
 ```cpp
