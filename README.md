@@ -4,6 +4,9 @@ Promise implementation for JavaScript to C++ in Qt QML
 
 To avoid deep callback chains use promises.
 
+Before using promises register the QML Engine with Promise::setEngine()
+(and probably qmlRegisterType)
+
 ## Example
 
 ```cpp
@@ -27,6 +30,7 @@ test.double(5).then(function (i, j) {
 
 ## TODO
 
+* Add source code example
 * Try to follow Promise specification somewhat
 * Memory management? Does promise objects get garbaged correctly by the JS GC?
 * Performance?
