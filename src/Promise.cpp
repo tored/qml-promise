@@ -2,7 +2,7 @@
 
 #include <QQmlEngine>
 
-#include "promise.h"
+#include "Promise.h"
 
 QQmlEngine* Promise::mEngine = nullptr;
 
