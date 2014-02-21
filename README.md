@@ -2,7 +2,7 @@
 
 Promise implementation for JavaScript to C++ in Qt QML
 
-To avoid deep callback chains use promises.
+To avoid deep callback chains when doing asynchronous work, use promises.
 
 Before using promises register the QML Engine with Promise::setEngine()
 (and probably qmlRegisterType)
