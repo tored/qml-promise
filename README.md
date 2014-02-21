@@ -7,7 +7,7 @@ To avoid deep callback chains use promises.
 Before using promises register the QML Engine with Promise::setEngine()
 (and probably qmlRegisterType)
 
-Requires C++11
+**Requires C++11**
 
 ## Example
 
