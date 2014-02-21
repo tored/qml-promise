@@ -37,6 +37,6 @@ test.doubleIt(5).then(function (i, j) {
 ## TODO
 
 * Add source code example
-* Try to follow Promise specification somewhat
+* Try to follow Promise specification somewhat  [Promises/A+](http://promises-aplus.github.io/promises-spec/)
 * Memory management? Does promise objects get garbaged correctly by the JS GC?
 * Performance?
