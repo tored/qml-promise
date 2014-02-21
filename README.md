@@ -14,7 +14,7 @@ Before using promises register the QML Engine with Promise::setEngine()
 ### C++
 
 ```cpp
-QObject* Test::double(int i)
+QObject* Test::doubleIt(int i)
 {
   Promise *promise = new Promise();
   QtConcurrent::run([promise, i] {
@@ -28,7 +28,7 @@ QObject* Test::double(int i)
 ### JavaScript
 
 ```javasript
-test.double(5).then(function (i, j) {
+test.doubleIt(5).then(function (i, j) {
   console.log(i, j);
 });
 ```
