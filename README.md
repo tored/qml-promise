@@ -7,7 +7,11 @@ To avoid deep callback chains use promises.
 Before using promises register the QML Engine with Promise::setEngine()
 (and probably qmlRegisterType)
 
+Requires C++11
+
 ## Example
+
+### C++
 
 ```cpp
 QObject* Test::double(int i)
@@ -20,6 +24,8 @@ QObject* Test::double(int i)
   return promise;
 }
 ```
+
+### JavaScript
 
 ```javasript
 test.double(5).then(function (i, j) {
